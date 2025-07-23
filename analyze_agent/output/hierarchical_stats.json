@@ -1,0 +1,428 @@
+{
+  "计算机科学": {
+    "__papers__": [],
+    "计算机视觉": {
+      "__papers__": [
+        {
+          "id": "2505.22938",
+          "pdf": "https://arxiv.org/pdf/2505.22938",
+          "abs": "https://arxiv.org/abs/2505.22938",
+          "authors": [
+            "Ben Weiss"
+          ],
+          "title": "Fast Isotropic Median Filtering",
+          "categories": [
+            "cs.CV",
+            "cs.DS"
+          ],
+          "comment": "Supplemental material:\n  https://github.com/google/fast-isotropic-median-filter",
+          "summary": "Median filtering is a cornerstone of computational image processing. It\nprovides an effective means of image smoothing, with minimal blurring or\nsoftening of edges, invariance to monotonic transformations such as gamma\nadjustment, and robustness to noise and outliers. However, known algorithms\nhave all suffered from practical limitations: the bit depth of the image data,\nthe size of the filter kernel, or the kernel shape itself. Square-kernel\nimplementations tend to produce streaky cross-hatching artifacts, and nearly\nall known efficient algorithms are in practice limited to square kernels. We\npresent for the first time a method that overcomes all of these limitations.\nOur method operates efficiently on arbitrary bit-depth data, arbitrary kernel\nsizes, and arbitrary convex kernel shapes, including circular shapes.",
+          "keywords": [
+            "中值滤波",
+            "图像处理",
+            "去噪",
+            "高效算法",
+            "任意核形状",
+            "边缘保持"
+          ],
+          "methods": [
+            "高效中值滤波算法",
+            "支持任意比特深度与核形状",
+            "避免方形核伪影"
+          ],
+          "problems": [
+            "如何高效实现支持任意比特深度、任意核大小和形状的中值滤波",
+            "解决传统中值滤波在核形状和效率上的局限性",
+            "减少方形核带来的伪影和交叉阴影"
+          ],
+          "classification_path": "计算机科学 → 计算机视觉"
+        }
+      ],
+      "__subs__": [
+        "三维重建",
+        "视频理解",
+        "目标检测",
+        "小样本学习",
+        "生成模型",
+        "图像分割"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "field"
+    },
+    "数据可视化": {
+      "__papers__": [
+        {
+          "id": "2505.23447",
+          "pdf": "https://arxiv.org/pdf/2505.23447",
+          "abs": "https://arxiv.org/abs/2505.23447",
+          "authors": [
+            "Sara Johansson Fernstad",
+            "Sarah Alsufyani",
+            "Silvia Del Din",
+            "Alison Yarnall",
+            "Lynn Rochester"
+          ],
+          "title": "To Measure What Isn't There -- Visual Exploration of Missingness Structures Using Quality Metrics",
+          "categories": [
+            "cs.GR",
+            "cs.HC"
+          ],
+          "comment": "Submitted to IEEE Vis2025",
+          "summary": "This paper contributes a set of quality metrics for identification and visual\nanalysis of structured missingness in high-dimensional data. Missing values in\ndata are a frequent challenge in most data generating domains and may cause a\nrange of analysis issues. Structural missingness in data may indicate issues in\ndata collection and pre-processing, but may also highlight important data\ncharacteristics. While research into statistical methods for dealing with\nmissing data are mainly focusing on replacing missing values with plausible\nestimated values, visualization has great potential to support a more in-depth\nunderstanding of missingness structures in data. Nonetheless, while the\ninterest in missing data visualization has increased in the last decade, it is\nstill a relatively overlooked research topic with a comparably small number of\npublications, few of which address scalability issues. Efficient visual\nanalysis approaches are needed to enable exploration of missingness structures\nin large and high-dimensional data, and to support informed decision-making in\ncontext of potential data quality issues. This paper suggests a set of quality\nmetrics for identification of patterns of interest for understanding of\nstructural missingness in data. These quality metrics can be used as guidance\nin visual analysis, as demonstrated through a use case exploring structural\nmissingness in data from a real-life walking monitoring study. All supplemental\nmaterials for this paper are available at\nhttps://doi.org/10.25405/data.ncl.c.7741829.",
+          "keywords": [
+            "缺失数据",
+            "数据可视化",
+            "高维数据",
+            "质量度量",
+            "结构性缺失",
+            "数据分析"
+          ],
+          "methods": [
+            "缺失结构质量度量指标",
+            "可视化分析方法",
+            "案例研究"
+          ],
+          "problems": [
+            "如何在高维数据中识别和分析结构性缺失模式？",
+            "如何通过可视化和质量度量辅助理解数据缺失结构？",
+            "如何支持大规模高维数据中缺失结构的高效可视化分析？"
+          ],
+          "classification_path": "计算机科学 → 数据可视化"
+        }
+      ],
+      "__subs__": [],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "人机交互": {
+      "__papers__": [
+        {
+          "id": "2505.23685",
+          "pdf": "https://arxiv.org/pdf/2505.23685",
+          "abs": "https://arxiv.org/abs/2505.23685",
+          "authors": [
+            "Raffles Xingqi Zhu",
+            "Charlie S. Burlingham",
+            "Olivier Mercier",
+            "Phillip Guan"
+          ],
+          "title": "Errors in Stereo Geometry Induce Distance Misperception",
+          "categories": [
+            "cs.HC",
+            "cs.GR"
+          ],
+          "comment": null,
+          "summary": "Stereoscopic head-mounted displays (HMDs) render and present binocular images\nto create an egocentric, 3D percept to the HMD user. Within this render and\npresentation pipeline there are potential rendering camera and viewing position\nerrors that can induce deviations in the depth and distance that a user\nperceives compared to the underlying intended geometry. For example, rendering\nerrors can arise when HMD render cameras are incorrectly positioned relative to\nthe assumed centers of projections of the HMD displays and viewing errors can\narise when users view stereo geometry from the incorrect location in the HMD\neyebox. In this work we present a geometric framework that predicts errors in\ndistance perception arising from inaccurate HMD perspective geometry and build\nan HMD platform to reliably simulate render and viewing error in a Quest 3 HMD\nwith eye tracking to experimentally test these predictions. We present a series\nof five experiments to explore the efficacy of this geometric framework and\nshow that errors in perspective geometry can induce both under- and\nover-estimations in perceived distance. We further demonstrate how real-time\nvisual feedback can be used to dynamically recalibrate visuomotor mapping so\nthat an accurate reach distance is achieved even if the perceived visual\ndistance is negatively impacted by geometric error.",
+          "keywords": [
+            "立体头戴显示器",
+            "距离感知",
+            "几何误差",
+            "人机交互",
+            "视觉反馈",
+            "视差"
+          ],
+          "methods": [
+            "几何建模",
+            "实验平台搭建",
+            "眼动追踪",
+            "实时视觉反馈校准",
+            "用户实验"
+          ],
+          "problems": [
+            "立体显示系统中的几何误差如何影响用户的距离感知？",
+            "如何通过几何框架预测和解释这些感知误差？",
+            "能否通过实时视觉反馈动态校准用户的动作以补偿感知误差？"
+          ],
+          "classification_path": "计算机科学 → 人机交互"
+        }
+      ],
+      "__subs__": [
+        "问答系统",
+        "三维重建"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "大语言模型": {
+      "__papers__": [],
+      "__subs__": [
+        "代码生成",
+        "对话系统",
+        "生成模型",
+        "小样本学习",
+        "问答系统"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "强化学习": {
+      "__papers__": [
+        {
+          "id": "2505.23708",
+          "pdf": "https://arxiv.org/pdf/2505.23708",
+          "abs": "https://arxiv.org/abs/2505.23708",
+          "authors": [
+            "Lucas N. Alegre",
+            "Agon Serifi",
+            "Ruben Grandia",
+            "David Müller",
+            "Espen Knoop",
+            "Moritz Bächer"
+          ],
+          "title": "AMOR: Adaptive Character Control through Multi-Objective Reinforcement Learning",
+          "categories": [
+            "cs.RO",
+            "cs.GR"
+          ],
+          "comment": "SIGGRAPH 2025",
+          "summary": "Reinforcement learning (RL) has significantly advanced the control of\nphysics-based and robotic characters that track kinematic reference motion.\nHowever, methods typically rely on a weighted sum of conflicting reward\nfunctions, requiring extensive tuning to achieve a desired behavior. Due to the\ncomputational cost of RL, this iterative process is a tedious, time-intensive\ntask. Furthermore, for robotics applications, the weights need to be chosen\nsuch that the policy performs well in the real world, despite inevitable\nsim-to-real gaps. To address these challenges, we propose a multi-objective\nreinforcement learning framework that trains a single policy conditioned on a\nset of weights, spanning the Pareto front of reward trade-offs. Within this\nframework, weights can be selected and tuned after training, significantly\nspeeding up iteration time. We demonstrate how this improved workflow can be\nused to perform highly dynamic motions with a robot character. Moreover, we\nexplore how weight-conditioned policies can be leveraged in hierarchical\nsettings, using a high-level policy to dynamically select weights according to\nthe current task. We show that the multi-objective policy encodes a diverse\nspectrum of behaviors, facilitating efficient adaptation to novel tasks.",
+          "keywords": [
+            "多目标强化学习",
+            "权重条件化策略",
+            "机器人控制",
+            "Pareto前沿",
+            "自适应行为",
+            "层次策略"
+          ],
+          "methods": [
+            "多目标强化学习框架",
+            "权重条件化策略训练",
+            "Pareto前沿权重采样",
+            "层次策略结构（高层动态权重选择）"
+          ],
+          "problems": [
+            "如何减少多目标奖励权重调优的迭代成本和时间",
+            "如何训练能适应不同奖励权重的单一策略以实现多样化行为",
+            "如何提升机器人角色在现实世界中的适应性和任务泛化能力"
+          ],
+          "classification_path": "计算机科学 → 强化学习"
+        }
+      ],
+      "__subs__": [
+        "问答系统",
+        "生成模型",
+        "小样本学习"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "自然语言处理": {
+      "__papers__": [],
+      "__subs__": [
+        "问答系统",
+        "生成模型",
+        "对话系统",
+        "代码生成",
+        "小样本学习"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "field"
+    },
+    "医学图像": {
+      "__papers__": [],
+      "__subs__": [
+        "医学图像分割",
+        "小样本学习",
+        "问答系统",
+        "生成模型"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "语音与音频处理": {
+      "__papers__": [],
+      "__subs__": [
+        "语音识别",
+        "问答系统",
+        "生成模型"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "多模态学习": {
+      "__papers__": [
+        {
+          "id": "2505.23365",
+          "pdf": "https://arxiv.org/pdf/2505.23365",
+          "abs": "https://arxiv.org/abs/2505.23365",
+          "authors": [
+            "Yang Qiao",
+            "Xiaoyu Zhong",
+            "Xiaofeng Gu",
+            "Zhiguo Yu"
+          ],
+          "title": "MCFNet: A Multimodal Collaborative Fusion Network for Fine-Grained Semantic Classification",
+          "categories": [
+            "cs.CV"
+          ],
+          "comment": null,
+          "summary": "Multimodal information processing has become increasingly important for\nenhancing image classification performance. However, the intricate and implicit\ndependencies across different modalities often hinder conventional methods from\neffectively capturing fine-grained semantic interactions, thereby limiting\ntheir applicability in high-precision classification tasks. To address this\nissue, we propose a novel Multimodal Collaborative Fusion Network (MCFNet)\ndesigned for fine-grained classification. The proposed MCFNet architecture\nincorporates a regularized integrated fusion module that improves intra-modal\nfeature representation through modality-specific regularization strategies,\nwhile facilitating precise semantic alignment via a hybrid attention mechanism.\nAdditionally, we introduce a multimodal decision classification module, which\njointly exploits inter-modal correlations and unimodal discriminative features\nby integrating multiple loss functions within a weighted voting paradigm.\nExtensive experiments and ablation studies on benchmark datasets demonstrate\nthat the proposed MCFNet framework achieves consistent improvements in\nclassification accuracy, confirming its effectiveness in modeling subtle\ncross-modal semantics.",
+          "keywords": [
+            "多模态融合",
+            "细粒度分类",
+            "协同网络",
+            "语义对齐",
+            "注意力机制"
+          ],
+          "methods": [
+            "正则化集成融合模块",
+            "模态特定正则化策略",
+            "混合注意力机制",
+            "多模态决策分类模块",
+            "加权投票范式",
+            "多损失函数集成"
+          ],
+          "problems": [
+            "如何有效建模多模态间复杂且隐式的依赖关系以提升细粒度语义分类性能",
+            "如何通过融合与对齐多模态特征实现高精度分类",
+            "如何联合利用模态间相关性与单模态判别特征提升分类准确率"
+          ],
+          "classification_path": "计算机科学 → 多模态学习"
+        },
+        {
+          "id": "2505.23590",
+          "pdf": "https://arxiv.org/pdf/2505.23590",
+          "abs": "https://arxiv.org/abs/2505.23590",
+          "authors": [
+            "Zifu Wang",
+            "Junyi Zhu",
+            "Bo Tang",
+            "Zhiyu Li",
+            "Feiyu Xiong",
+            "Jiaqian Yu",
+            "Matthew B. Blaschko"
+          ],
+          "title": "Jigsaw-R1: A Study of Rule-based Visual Reinforcement Learning with Jigsaw Puzzles",
+          "categories": [
+            "cs.CV",
+            "cs.AI",
+            "cs.CL"
+          ],
+          "comment": null,
+          "summary": "The application of rule-based reinforcement learning (RL) to multimodal large\nlanguage models (MLLMs) introduces unique challenges and potential deviations\nfrom findings in text-only domains, particularly for perception-heavy tasks.\nThis paper provides a comprehensive study of rule-based visual RL using jigsaw\npuzzles as a structured experimental framework, revealing several key findings.\n\\textit{Firstly,} we find that MLLMs, initially performing near to random\nguessing on simple puzzles, achieve near-perfect accuracy and generalize to\ncomplex, unseen configurations through fine-tuning. \\textit{Secondly,} training\non jigsaw puzzles can induce generalization to other visual tasks, with\neffectiveness tied to specific task configurations. \\textit{Thirdly,} MLLMs can\nlearn and generalize with or without explicit reasoning, though open-source\nmodels often favor direct answering. Consequently, even when trained for\nstep-by-step reasoning, they can ignore the thinking process in deriving the\nfinal answer. \\textit{Fourthly,} we observe that complex reasoning patterns\nappear to be pre-existing rather than emergent, with their frequency increasing\nalongside training and task difficulty. \\textit{Finally,} our results\ndemonstrate that RL exhibits more effective generalization than Supervised\nFine-Tuning (SFT), and an initial SFT cold start phase can hinder subsequent RL\noptimization. Although these observations are based on jigsaw puzzles and may\nvary across other visual tasks, this research contributes a valuable piece of\njigsaw to the larger puzzle of collective understanding rule-based visual RL\nand its potential in multimodal learning. The code is available at:\n\\href{https://github.com/zifuwanggg/Jigsaw-R1}{https://github.com/zifuwanggg/Jigsaw-R1}.",
+          "keywords": [
+            "多模态大模型",
+            "视觉强化学习",
+            "规则驱动",
+            "拼图任务",
+            "泛化能力",
+            "推理能力"
+          ],
+          "methods": [
+            "规则驱动强化学习（Rule-based RL）",
+            "多模态大模型微调",
+            "拼图任务实验框架",
+            "对比监督微调与强化学习"
+          ],
+          "problems": [
+            "多模态大模型在视觉强化学习任务中的泛化能力如何？",
+            "规则驱动强化学习在视觉任务中的表现与机制是什么？",
+            "拼图任务训练能否促进模型对其他视觉任务的泛化？",
+            "多模态大模型是否需要显式推理才能泛化？",
+            "监督微调与强化学习在多模态视觉任务中的优劣对比"
+          ],
+          "classification_path": "计算机科学 → 多模态学习"
+        },
+        {
+          "id": "2505.23590",
+          "pdf": "https://arxiv.org/pdf/2505.23590",
+          "abs": "https://arxiv.org/abs/2505.23590",
+          "authors": [
+            "Zifu Wang",
+            "Junyi Zhu",
+            "Bo Tang",
+            "Zhiyu Li",
+            "Feiyu Xiong",
+            "Jiaqian Yu",
+            "Matthew B. Blaschko"
+          ],
+          "title": "Jigsaw-R1: A Study of Rule-based Visual Reinforcement Learning with Jigsaw Puzzles",
+          "categories": [
+            "cs.CV",
+            "cs.AI",
+            "cs.CL"
+          ],
+          "comment": null,
+          "summary": "The application of rule-based reinforcement learning (RL) to multimodal large\nlanguage models (MLLMs) introduces unique challenges and potential deviations\nfrom findings in text-only domains, particularly for perception-heavy tasks.\nThis paper provides a comprehensive study of rule-based visual RL using jigsaw\npuzzles as a structured experimental framework, revealing several key findings.\n\\textit{Firstly,} we find that MLLMs, initially performing near to random\nguessing on simple puzzles, achieve near-perfect accuracy and generalize to\ncomplex, unseen configurations through fine-tuning. \\textit{Secondly,} training\non jigsaw puzzles can induce generalization to other visual tasks, with\neffectiveness tied to specific task configurations. \\textit{Thirdly,} MLLMs can\nlearn and generalize with or without explicit reasoning, though open-source\nmodels often favor direct answering. Consequently, even when trained for\nstep-by-step reasoning, they can ignore the thinking process in deriving the\nfinal answer. \\textit{Fourthly,} we observe that complex reasoning patterns\nappear to be pre-existing rather than emergent, with their frequency increasing\nalongside training and task difficulty. \\textit{Finally,} our results\ndemonstrate that RL exhibits more effective generalization than Supervised\nFine-Tuning (SFT), and an initial SFT cold start phase can hinder subsequent RL\noptimization. Although these observations are based on jigsaw puzzles and may\nvary across other visual tasks, this research contributes a valuable piece of\njigsaw to the larger puzzle of collective understanding rule-based visual RL\nand its potential in multimodal learning. The code is available at:\n\\href{https://github.com/zifuwanggg/Jigsaw-R1}{https://github.com/zifuwanggg/Jigsaw-R1}.",
+          "keywords": [
+            "多模态大模型",
+            "视觉强化学习",
+            "规则驱动",
+            "拼图任务",
+            "泛化能力",
+            "推理能力"
+          ],
+          "methods": [
+            "规则驱动强化学习（Rule-based RL）",
+            "多模态大模型微调",
+            "拼图任务实验框架",
+            "对比监督微调与强化学习"
+          ],
+          "problems": [
+            "多模态大模型在视觉强化学习任务中的泛化能力如何？",
+            "规则驱动强化学习在视觉任务中的表现与机制是什么？",
+            "拼图任务训练能否促进模型对其他视觉任务的泛化？",
+            "多模态大模型是否需要显式推理才能泛化？",
+            "监督微调与强化学习在多模态视觉任务中的优劣对比"
+          ],
+          "classification_path": "计算机科学 → 多模态学习"
+        }
+      ],
+      "__subs__": [
+        "生成模型",
+        "对话系统",
+        "问答系统",
+        "视频理解",
+        "目标检测",
+        "小样本学习",
+        "三维重建"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "field"
+    },
+    "机器学习": {
+      "__papers__": [],
+      "__subs__": [
+        "小样本学习",
+        "生成模型"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "field"
+    },
+    "机器人学": {
+      "__papers__": [],
+      "__subs__": [
+        "生成模型",
+        "三维重建"
+      ],
+      "__merged_from__": [
+        "__subs__"
+      ],
+      "__type__": "unknown"
+    },
+    "__merged_from__": [
+      "计算机科学"
+    ],
+    "__type__": "unknown"
+  }
+}

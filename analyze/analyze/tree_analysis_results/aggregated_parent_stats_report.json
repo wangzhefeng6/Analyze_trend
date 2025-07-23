@@ -1,0 +1,48 @@
+{
+  "aggregation_time": "2025-06-27T15:33:10.309917",
+  "total_categories": 31,
+  "total_papers": 915,
+  "avg_papers_per_category": 29.52,
+  "top_categories": [
+    {
+      "parent_node": "图像分析与理解",
+      "total_papers": 211
+    },
+    {
+      "parent_node": "文本生成与对话",
+      "total_papers": 95
+    },
+    {
+      "parent_node": "三维视觉技术",
+      "total_papers": 88
+    },
+    {
+      "parent_node": "图像生成技术",
+      "total_papers": 59
+    },
+    {
+      "parent_node": "自然语言处理",
+      "total_papers": 55
+    },
+    {
+      "parent_node": "多模态智能",
+      "total_papers": 47
+    },
+    {
+      "parent_node": "机器学习方法",
+      "total_papers": 42
+    },
+    {
+      "parent_node": "目标检测与跟踪",
+      "total_papers": 38
+    },
+    {
+      "parent_node": "视频生成与理解",
+      "total_papers": 37
+    },
+    {
+      "parent_node": "文本分析与挖掘",
+      "total_papers": 34
+    }
+  ]
+}

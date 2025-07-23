@@ -1,0 +1,10 @@
+arxiv:
+  categories:  # 文章类型
+    - cs.CL    # 计算语言学（包含大模型、RAG相关）
+    - cs.AI    # 人工智能（包含agent相关）
+    - cs.CV    # 计算机视觉（包含多模态相关）
+    - cs.LG    # 机器学习（包含大模型相关）
+    - cs.MM    # 多媒体（包含多模态相关）
+
+llm:
+  model_name: 'deepseek-chat'  # 使用的LLM模型
